@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Nunito:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #333333;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 120px;
+    color: blueviolet;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+button {
+    padding: 2px;
+    font-family: 'Kanit', sans-serif;
+    width: 80px;
+    outline: hidden;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 0px 0px red ;
+}
+
+select {
+    padding: 5px;
+}
+
